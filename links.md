@@ -6,3 +6,4 @@ Resources I've used to get going.
 - https://github.com/avelino/awesome-go
 - https://gobyexample.com/command-line-arguments
 - https://golangbot.com/write-files/
+- https://github.com/golang/go/wiki/Comments

@@ -20,15 +20,10 @@ func main() {
 		return
 	}
 
-	//d := []string{allArgs}
+	//d := allArgs
 
-	for _, v := range d {
-		fmt.Fprintln(f, v)
-		if err != nil {
-			fmt.Println(err)
-			return
-		}
-	}
+	//fmt.Fprintln(d)
+
 	err = f.Close()
 	if err != nil {
 		fmt.Println(err)

@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
 func main() {
-	fmt.Printf("mdls\n")
+	allArgs := os.Args[1:]
+	fmt.Println(allArgs)
 }

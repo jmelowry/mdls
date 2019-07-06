@@ -8,3 +8,4 @@ Resources I've used to get going.
 - https://golangbot.com/write-files/
 - https://github.com/golang/go/wiki/Comments
 - https://github.com/mitchellh/cli
+- https://golang.org/pkg/bufio/

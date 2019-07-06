@@ -12,17 +12,17 @@ func main() {
 	t := time.Now()
 	p(t.Format(time.RFC3339))
 
-	allArgs := os.Args
-
 	if err != nil {
 		fmt.Println(err)
 		f.Close()
 		return
 	}
 
-	//d := allArgs
+	if len(os.Args) > 1 {
+		fmt.Println("2 or more args")
+	}
 
-	//fmt.Fprintln(d)
+	//d := os.Args
 
 	err = f.Close()
 	if err != nil {
